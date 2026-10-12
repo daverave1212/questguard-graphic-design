@@ -1,0 +1,47 @@
+
+    Page Dimensions
+Note: These are not the working page dimensions, but the standard US letter size.
+
+page-width: 215.9mm     
+page-height: 279.4mm
+bleed: 3mm
+
+
+    Margins
+margin-top: 16mm
+margin-bottom: 22mm
+margin-left: 18mm
+margin-right: 18mm
+
+    Typography (Suggestions)
+NOTE: These are fonts that I am currently using, for the book
+Titles: SourceSans3-Bold (with a little letter spacing)
+Text Font: SourceSerif4
+
+Both of these fonts can be downloaded for free from Google.
+
+h1-size: 32pt
+h2-size: 19pt
+h2-pdf-size: 21pt               /* Between Grim Hollow and Draw Steel */
+h3-size: 14pt
+h3-pdf-size: 18pt               /* Similar to Grim Hollow */
+h4-size: 12pt
+p-size: 9.5pt
+p-line-height: 14pt
+p-spacing: 5pt
+caption-size: 11pt
+page-number-size: 9pt
+
+page-number-bottom: 12mm
+column-gap: 6mm                 /* More similar to Daggerheart/Vaesen/Grim Hollow */
+h3-margin-top: 6mm
+
+
+    Typography (Website)
+Titles: RobotoCondensed-Bold
+Text Font: LinuxLibertine
+
+
+    Working Page Dimensions
+page-width-with-bleed: page-width + 2 * bleed
+page-height-with-bleed: page-height + 2 * bleed

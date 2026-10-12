@@ -1,0 +1,14 @@
+https://questguardrpg.com
+
+	Images
+From there, you can use any image by right clicking and hitting Save on it.
+For Abilities, you can go to Game > any Class or Race. You can download the icons for any of the spells.
+
+	Titles
+You can make big titles in our QuestGuard font by going to this link:
+https://questguardrpg.com/Tools/TitleGenerator
+
+Type in any text and hit Generate.
+Wait a couple seconds.
+You can then save the text as an image (right click on the purple text > Save As > PNG).
+NOTE: Only letters and spaces are supported!

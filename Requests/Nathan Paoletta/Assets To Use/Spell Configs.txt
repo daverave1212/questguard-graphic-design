@@ -1,0 +1,59 @@
+
+
+    ~Ripstorm~:
+        A: 3 Action Points
+        Cost: 1 Mana
+        Cooldown: Once / Encounter
+        Requirement: Only usable while Shapeshifted
+        Tags: [Damage, Mass Damage, Control Effect (Hard)]
+        Effect: |
+          Deal 3d10 Damage to all Worthy Units within 2 meters of you.
+          Heal for 1 Health per 5 real Damage done (total).
+          
+          {Brown('Earth:')} One of the Units hit becomes Blinded.
+          {Brown('Wind:')} +1 range and only hits Enemies
+
+    ~Stouthearten~:
+      A: Passive
+      IsIgnored: true
+      Combat Extras:
+        - You wear 2 sets of armor.
+      Extras:
+        - +100% Inventory capacity
+      Effect: |
+        You have +100% Inventory capacity.
+        You can wear an extra layer of Light or Medium armor over (or underneath) your armor. Apply all of its effects as normal.
+      Notes: Unarmored is not an armor. 50% Damage reductions of the same type do not stack
+
+
+    ~Cauterize~:
+      A: Half-Action
+      Cost: 2 Mana
+      Requirement: Level 9
+      Effect: |
+        Choose a Unit you can see. Deal 4d6 Fire Damage to it.
+        At the start of its Turn, Heal it for 6d6.
+      Combo: You can repeat this next Turn, without spending the Mana.
+
+    ~Hail~:
+        A: 1 Action
+        Range: 5 meters
+        ScrollPower: Auto
+        HasMixins: true
+        Degree: Minor
+        Tags: [Damage, Mass Damage]
+        Effect: |
+            Choose a target and a Stat.
+            Blast it for 2d8 + ^its Stat^ {Color('magenta' 'Flux')} Damage.
+        Combo: Damages an extra Unit in range with -50% of the original Damage.
+        Notes: Each extra Unit hit must be different than the others.
+
+
+    ~Payday~:
+      A: 1 Action
+      IconName: Fame Time
+      Cost: 1 Mana
+      Requirement: Only usable in Worthy Combat
+      Tags: [Gold]
+      Effect: |
+        For the rest of the Combat, gain 25 {Gold}Gold whenever you use an Action Point.
