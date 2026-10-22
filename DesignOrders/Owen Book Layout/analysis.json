@@ -1,0 +1,193 @@
+{
+  "pdf": "OwenPDF-Page1.pdf",
+  "page_analyzed": 1,
+  "page_size": {
+    "width": {
+      "pt": 612.0,
+      "mm": 215.9
+    },
+    "height": {
+      "pt": 792.0,
+      "mm": 279.4
+    },
+    "orientation": "portrait"
+  },
+  "text_content_bounds_pt": {
+    "x0": 78.0,
+    "y0": 75.05,
+    "x1": 536.51,
+    "y1": 775.27,
+    "width": 458.51,
+    "height": 700.22
+  },
+  "two_column_layout": {
+    "status": "estimated_from_text_lines",
+    "left_column": {
+      "x_start_pt": 78.0,
+      "x_end_pt": 302.52,
+      "width": {
+        "pt": 224.52,
+        "mm": 79.21
+      },
+      "line_count": 24
+    },
+    "right_column": {
+      "x_start_pt": 312.0,
+      "x_end_pt": 536.51,
+      "width": {
+        "pt": 224.51,
+        "mm": 79.2
+      },
+      "line_count": 21
+    },
+    "column_gap": {
+      "pt": 9.48,
+      "mm": 3.34
+    },
+    "body_margins": {
+      "left": {
+        "pt": 78.0,
+        "mm": 27.52
+      },
+      "right": {
+        "pt": 75.49,
+        "mm": 26.63
+      },
+      "top": {
+        "pt": 75.05,
+        "mm": 26.48
+      },
+      "bottom": {
+        "pt": 297.54,
+        "mm": 104.97
+      }
+    },
+    "notes": "These are approximate text extents, not necessarily the original document's margin/column settings. Top and bottom exclude header/footer regions."
+  },
+  "searched_text": {
+    "learning the": [
+      {
+        "matched_line": "Learning the rules",
+        "font": "KilnSansRegular",
+        "font_size_pt": 20.0,
+        "color": "#C02026",
+        "bbox_pt": {
+          "x0": 78.0,
+          "y0": 76.3,
+          "x1": 243.3,
+          "y1": 101.06,
+          "width": 165.3,
+          "height": 24.76
+        },
+        "all_span_styles": [
+          {
+            "font": "KilnSansRegular",
+            "size_pt": 20.0,
+            "color": "#C02026"
+          }
+        ]
+      }
+    ],
+    "you want to try Questguard specifically and": [
+      {
+        "matched_line": "watch?v=2PEt5RdNHNw If you want to try Questguard specifically and you",
+        "font": "LinLibertine",
+        "font_size_pt": 10.0,
+        "color": "#000000",
+        "bbox_pt": {
+          "x0": 78.0,
+          "y0": 147.05,
+          "x1": 302.5,
+          "y1": 182.46,
+          "width": 224.5,
+          "height": 35.41
+        },
+        "all_span_styles": [
+          {
+            "font": "LinLibertine",
+            "size_pt": 10.0,
+            "color": "#000000"
+          }
+        ]
+      },
+      {
+        "matched_line": "If you want to try Questguard specifically and you",
+        "font": "LinLibertine",
+        "font_size_pt": 10.0,
+        "color": "#000000",
+        "bbox_pt": {
+          "x0": 78.0,
+          "y0": 171.05,
+          "x1": 302.5,
+          "y1": 182.46,
+          "width": 224.5,
+          "height": 11.41
+        },
+        "all_span_styles": [
+          {
+            "font": "LinLibertine",
+            "size_pt": 10.0,
+            "color": "#000000"
+          }
+        ]
+      }
+    ]
+  },
+  "most_common_styles": [
+    {
+      "font": "LinLibertine",
+      "size_pt": 10.0,
+      "color": "#000000",
+      "character_count": 1808,
+      "span_count": 41
+    },
+    {
+      "font": "KilnSansRegular",
+      "size_pt": 20.0,
+      "color": "#C02026",
+      "character_count": 57,
+      "span_count": 3
+    },
+    {
+      "font": "LinLibertineB",
+      "size_pt": 12.0,
+      "color": "#644A9E",
+      "character_count": 33,
+      "span_count": 2
+    },
+    {
+      "font": "Roca-Bold",
+      "size_pt": 14.0,
+      "color": "#414042",
+      "character_count": 1,
+      "span_count": 1
+    }
+  ],
+  "embedded_fonts": [
+    {
+      "xref": 12,
+      "base_font": "IIATEC+LinLibertine",
+      "resource_name": "C2_0"
+    },
+    {
+      "xref": 20,
+      "base_font": "IIATEC+KilnSansRegular",
+      "resource_name": "T1_0"
+    },
+    {
+      "xref": 25,
+      "base_font": "IIATEC+Roca-Bold",
+      "resource_name": "T1_1"
+    },
+    {
+      "xref": 30,
+      "base_font": "IIATEC+LinLibertineB",
+      "resource_name": "TT0"
+    }
+  ],
+  "notes": [
+    "All coordinates are in PDF points, origin at top-left of displayed page.",
+    "1 point = 1/72 inch. Margins and columns are estimated from text, not PDF layout metadata.",
+    "Phrase search is case-insensitive and can match adjacent lines; it is not OCR."
+  ]
+}
